@@ -15,7 +15,7 @@
 **Database:** Amazon DynamoDB
 **API Base URL / Execution Environment:** Local execution on EC2 via `boto3`.
 **Security:** Accessed strictly via an IAM Role (`EC2-DynamoDB-Role`) attached to the EC2 instance. No hardcoded credentials.
-**Data Model:** - `UserID` (Number)
+**Data Model:** - `UserID` (String)
 - `ClientName` (String)
 - `IsPremiumMember` (Boolean)
 - `FinancialGoals` (List)
